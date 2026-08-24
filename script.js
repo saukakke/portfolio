@@ -36,6 +36,22 @@ try {
   themeToggle?.addEventListener('click', () => body.classList.toggle('light'));
 }
 
+const projectsGrid = document.querySelector('.projects');
+if (projectsGrid && !document.getElementById('event-ticketing-project')) {
+  const eventProject = document.createElement('article');
+  eventProject.className = 'project reveal';
+  eventProject.id = 'event-ticketing-project';
+  eventProject.innerHTML = `
+    <small>02 · EVENT TECHNOLOGY / TICKETING</small>
+    <h3>Event Ticketing Platform</h3>
+    <p>A full-stack event ticketing application designed to manage events, ticket sales, attendee access and event operations through a responsive web experience.</p>
+    <div class="tags"><span>Next.js</span><span>JavaScript</span><span>Database</span><span>REST APIs</span><span>GitHub</span></div>
+  `;
+  const firstProject = projectsGrid.querySelector('.project');
+  if (firstProject) firstProject.insertAdjacentElement('afterend', eventProject);
+  else projectsGrid.appendChild(eventProject);
+}
+
 const revealElements = document.querySelectorAll('.reveal');
 if ('IntersectionObserver' in window) {
   const observer = new IntersectionObserver(entries => {
