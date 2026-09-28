@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saukakke.github.io/portfolio/sitemap.xml
