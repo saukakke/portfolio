@@ -1,34 +1,33 @@
 # Yasin Muhammed Tukur — Portfolio
 
-Premium static portfolio for **Yasin Muhammed Tukur**, a Computer Science graduate, PGD student, Backend Engineer, Full-Stack Developer and educator based in Zaria, Kaduna State, Nigeria.
+Personal portfolio for **Yasin Muhammed Tukur**, Software Engineer, Backend Engineer, Full-Stack Developer and educator based in Nigeria.
 
-## Profile
+## Recent featured projects
 
-Yasin combines software development, cybersecurity, data management and more than 10 years of teaching experience. His development work focuses on Laravel/PHP, JavaScript, RESTful APIs, databases, education technology and operational web applications.
+The portfolio currently highlights the five most recently discussed project repositories:
 
-## Highlights
+1. **Benefit Impact System** — PHP/MySQL beneficiary management and impact tracking platform for UCSI, covering beneficiaries, programmes, interventions, assessments, indicators, reporting and audit logs.
+2. **School Project Management System** — Laravel 12 university project-management platform covering project workflows, role-scoped access, private files, similarity-analysis authorization, defense scheduling, notifications and audit logging.
+3. **Veritas Plagiarism Detection & Academic Integrity Platform** — Laravel 12 academic-integrity platform with deterministic similarity analysis using shingling, MinHash and persistent LSH indexing, plus document integrity, reporting, privacy and organization workflows.
+4. **LearnHub** — Offline-First Hybrid Learning Hub using a Laravel 12 API, React/Tailwind frontend, SQLite, Sanctum and IndexedDB for offline learning and synchronization.
+5. **College Union Online Election System** — PHP/MySQL election application with administrator and voter panels, election configuration, candidate and position management, voting and result publication.
 
-- PGD in Computer Science — Ahmadu Bello University, Zaria (In View)
-- B.Sc. Computer Science — Ahmadu Bello University, Zaria (2023)
-- Diploma (OND) in Computer Science — Institute of Computing & ICT, ABU Zaria (2016)
-- Backend Engineer at Zuhsyn Innovations Limited (2024–2026)
-- Full-stack and backend project experience across EdTech, logistics, education, healthcare and workflow systems
-- 10+ years of teaching and mentoring experience
+Each project card includes:
 
-## Featured projects
+- Project summary
+- Technology badges
+- Technology/feature tags
+- GitHub repository link
+- Screenshot placeholder ready to be replaced with a real project image
 
-- SmartLab AI-powered Learning Management System
-- Azak Logistics & Transportation
-- ISAIB Transport & Logistics
-- KTC Logistics
-- School Information Management System
-- Leave Management System
-- Information Management System
-- Hospital Management System
+## Technical stack represented
 
-## Stack
-
-HTML5, CSS3, JavaScript, PHP, Laravel, React JS, Vue.js, Java, Python, Bootstrap, MySQL, PostgreSQL, SQLite, SQL, RESTful APIs, Git/GitHub, Railway and AWS.
+- **Backend:** PHP, Laravel 12, REST APIs
+- **Frontend:** HTML5, CSS3, JavaScript, React
+- **Styling:** Bootstrap, Tailwind CSS
+- **Databases:** MySQL/MariaDB, PostgreSQL, SQLite
+- **Application technologies:** Sanctum, IndexedDB, Vite, RBAC, audit logging, similarity analysis
+- **Tools:** Git, GitHub, Railway, Vercel and Render
 
 ## Portfolio
 
@@ -38,8 +37,19 @@ HTML5, CSS3, JavaScript, PHP, Laravel, React JS, Vue.js, Java, Python, Bootstrap
 
 ## Deployment
 
-The site is a static HTML5/CSS3/JavaScript application and includes a GitHub Actions workflow for GitHub Pages deployment at `.github/workflows/pages.yml`.
+The portfolio is a static HTML/CSS/JavaScript application deployed through GitHub Pages. It has no application build dependency and uses a lightweight frontend implementation.
 
 ## Design
 
-The interface uses a premium editorial SaaS-inspired visual system with responsive layouts, dark/light themes, motion-reduced support, accessible navigation, project cards, experience timeline and mobile-first behavior. The implementation is dependency-light and requires no build step.
+The site uses a responsive editorial-style interface with:
+
+- Dark/light theme switching
+- Responsive navigation
+- Project cards
+- Technology badges
+- Screenshot placeholders
+- Experience timeline
+- Technical skills section
+- Education section
+- Contact section
+- Reduced-motion support
