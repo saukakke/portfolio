@@ -2,24 +2,26 @@
 
 Personal portfolio for **Yasin Muhammed Tukur**, Software Engineer, Backend Engineer, Full-Stack Developer and educator based in Nigeria.
 
-## Recent featured projects
+## Selected projects
 
-The portfolio currently highlights six selected project repositories:
+The portfolio showcases the following projects:
 
-1. **Benefit Impact System** — PHP/MySQL beneficiary management and impact tracking platform for UCSI, covering beneficiaries, programmes, interventions, assessments, indicators, reporting and audit logs.
-2. **School Project Management System** — Laravel 12 university project-management platform covering project workflows, role-scoped access, private files, similarity-analysis authorization, defense scheduling, notifications and audit logging.
-3. **Veritas Plagiarism Detection & Academic Integrity Platform** — Laravel 12 academic-integrity platform with deterministic similarity analysis using shingling, MinHash and persistent LSH indexing, plus document integrity, reporting, privacy and organization workflows.
-4. **LearnHub** — Offline-First Hybrid Learning Hub using a Laravel 12 API, React/Tailwind frontend, SQLite, Sanctum and IndexedDB for offline learning and synchronization.
-5. **EventFlow — Event Ticketing Platform** — Next.js/React/TypeScript event ticketing platform with PostgreSQL, Prisma, Paystack Test Mode, digital QR tickets, check-in, organizer analytics and administrator controls.
-6. **CBT System** — Laravel 12 computer-based testing platform with Admin, Teacher and Student roles, exam scheduling, question banks, timed assessments, automatic submission, result reporting and controlled retakes.
+1. **SmartLab** — React + Laravel API + Python/FastAPI laboratory management and experiment platform.
+2. **Veritas Plagiarism Detection & Academic Integrity Platform** — Laravel academic-integrity platform with deterministic similarity analysis.
+3. **School Project Management System** — Laravel 12 project supervision and defence workflow platform.
+4. **EventFlow — Event Ticketing Platform** — Next.js/React/TypeScript event ticketing platform with PostgreSQL, Prisma, Paystack and QR check-in.
+5. **LearnHub** — Laravel + React/Tailwind offline-first hybrid learning platform.
+6. **Benefit Impact System** — PHP/MySQL beneficiary and impact-management platform.
+7. **CBT System** — Laravel computer-based testing and assessment platform.
+8. **I.S.A-IB Logistics and Transport** — Core PHP logistics and transport business website with secure forms, SMTP mail delivery and SEO implementation.
 
 Each project card includes:
 
 - Project summary
 - Technology badges
-- Technology/feature tags
+- Feature tags
 - GitHub repository link
-- Screenshot placeholder ready to be replaced with a real project image
+- Screenshot or project visual
 
 ## Technical stack represented
 
@@ -28,7 +30,7 @@ Each project card includes:
 - **Styling:** Bootstrap, Tailwind CSS
 - **Databases:** MySQL/MariaDB, PostgreSQL, SQLite
 - **Application technologies:** Sanctum, IndexedDB, Vite, RBAC, audit logging, similarity analysis
-- **Tools:** Git, GitHub, Railway, Vercel and Render
+- **Tools:** Git, GitHub, Composer, Railway, Vercel and Render
 
 ## Portfolio
 
